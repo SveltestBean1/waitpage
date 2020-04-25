@@ -4,10 +4,9 @@
 
 @font-face {
     font-family: 'minecraftiaregular';
-    src: url('Minecraftia.ttf') format('truetype'),
-         url('minecraftia-webfont.woff2') format('woff2'),
-         url('minecraftia-webfont.woff') format('woff');
+    src: url('fonts/Minecraftia.ttf') format('truetype'),
+         url('fonts/minecraftia-webfont.woff2') format('woff2'),
+         url('fonts/minecraftia-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
