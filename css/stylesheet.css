@@ -69,12 +69,3 @@ input[type="text"] {
     padding: 2px;
     outline: none;
 }
-
-input[type="text"]:focus, input[type="text"]:hover {
-    background-color: #777;
-    animation: hover .5s ease-in-out;
-}
-
-input[type="text"]:not(:hover),  input[type="text"]:not(:focus){
-    animation: nohover .5s ease-in-out;
-}
