@@ -17,12 +17,12 @@ div.centered div {
     margin: 0;
 }
 
-@keyframes hover{
+@keyframes hover {
     0% {background-color: #555;}
     100% {background-color: #777;}
 }
 
-@keyframes nohover{
+@keyframes nohover {
     0% {background-color: #777;}
     100% {background-color: #555;}
 }
@@ -32,6 +32,9 @@ div.background {
     position: absolute;
     width: 100%;
     height: 100%;
+    background-image: url("kurzgesagt_earth_blurred.png");
+    background-size: 150%;
+    background-position: center;
     background-color: #333;
 }
 
@@ -70,4 +73,6 @@ input[type="text"] {
     outline: none;
 }
 
-/*tf is going on*/
+h1 {
+    font-size: 40px;
+}
